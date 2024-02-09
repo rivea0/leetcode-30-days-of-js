@@ -5,12 +5,13 @@
 function memoize(fn) {
   let cache = {};
   return function (...args) {
-    if (args in cache) {
-      return cache[args];
+    let keyArgs = JSON.stringify(args);
+    if (keyArgs in cache) {
+      return cache[keyArgs];
     }
 
-    cache[args] = fn(...args);
-    return cache[args];
+    cache[keyArgs] = fn(...args);
+    return cache[keyArgs];
   };
 }
 

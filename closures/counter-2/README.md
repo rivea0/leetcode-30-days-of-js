@@ -50,4 +50,4 @@ The three functions are:
 
 - `-1000 <= init <= 1000`
 - `0 <= calls.length <= 1000`
-- `calls[i] is one of "increment", "decrement" and "reset"`
+- `calls[i]` is one of "increment", "decrement" and "reset"

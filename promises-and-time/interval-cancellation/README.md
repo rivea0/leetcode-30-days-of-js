@@ -14,7 +14,7 @@ The function `fn` should be called with `args` immediately and then called again
 >
 > **Output:**
 >
-> `[` <br> &nbsp; &nbsp; &nbsp; `{"time": 0, "returned": 8},` > <br> &nbsp; &nbsp; &nbsp; `{"time": 35, "returned": 8},` <br> &nbsp; &nbsp; &nbsp; `{"time": 70, "returned": 8},` <br> &nbsp; &nbsp; &nbsp; `{"time": 105, "returned": 8},` <br> &nbsp; &nbsp; &nbsp; `{"time": 140, "returned": 8},` <br> &nbsp; &nbsp; &nbsp; `{"time": 175, "returned": 8}` <br> `]`
+> `[` <br> &nbsp; &nbsp; &nbsp; `{"time": 0, "returned": 8},` <br> &nbsp; &nbsp; &nbsp; `{"time": 35, "returned": 8},` <br> &nbsp; &nbsp; &nbsp; `{"time": 70, "returned": 8},` <br> &nbsp; &nbsp; &nbsp; `{"time": 105, "returned": 8},` <br> &nbsp; &nbsp; &nbsp; `{"time": 140, "returned": 8},` <br> &nbsp; &nbsp; &nbsp; `{"time": 175, "returned": 8}` <br> `]`
 >
 > **Explanation:**
 >

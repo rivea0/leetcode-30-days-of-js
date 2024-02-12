@@ -5,11 +5,9 @@
  */
 var timeLimit = function (fn, t) {
   return async function (...args) {
-    let promise1 = new Promise((resolve, reject) => {
+    return new Promise(async (resolve, reject) => {
       setTimeout(reject, t, 'Time Limit Exceeded');
-    });
 
-    let promise2 = new Promise(async (resolve, reject) => {
       try {
         let result = await fn(...args);
         resolve(result);
@@ -17,8 +15,6 @@ var timeLimit = function (fn, t) {
         reject(error);
       }
     });
-
-    return Promise.race([promise1, promise2]);
   };
 };
 
